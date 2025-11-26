@@ -8,7 +8,7 @@ int nombr;
 puts("Programmme pour calculer la somme des chiffres d'un nombre");
 puts("Le nombre entre doit etre positif ou nul");
 do{
-printf("Donner un nombre : ");
+printf("Donner un nombre positif ou nul : ");
 scanf("%d",&nombr);
 }while(nombr < 0);
 int somme = somme_chiffres_nombre(nombr);

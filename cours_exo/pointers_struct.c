@@ -12,8 +12,9 @@ int main() {
   struct Car *ptr = &car;
 
   // Access members using the -> operator
-  printf("Brand: %s\n", ptr->brand);
-  printf("Year: %d\n", ptr->year);
-
+  printf("Brand: %p\n",ptr->brand);
+  printf("Year: %p\n", ptr+1);
+  printf("%p\n",ptr);
+    printf("%p\n",ptr+1);
   return 0;
 }

@@ -18,9 +18,8 @@ printf("Entrer votre prenom : ");
 scanf("%s",etudiant1.prenom);
 printf("Entrer votre age : ");
 scanf("%d",&etudiant1.age);
-
 printf("Entrer votre taille : ");
-scanf("%.2f",&etudiant1.taille);
+scanf("%f",&etudiant1.taille);
 printf("Entrer votre filiere : ");
 scanf("%s",etudiant1.filiere);
 printf("Entrer votre numero de carte etudiant : ");
